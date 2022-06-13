@@ -1,8 +1,8 @@
-fact = "I am very handsome"
 #p fact.index("e")
 #start from the end
 #p fact.index("e", -1)
 
+fact = "hello world"
 
 def custom_index(string, substring)
   return nil unless string.include?(substring)
@@ -16,6 +16,6 @@ def custom_index(string, substring)
   index_count
 end
 
-p custom_index(fact, "v")
+p custom_index(fact, "d")
 
 

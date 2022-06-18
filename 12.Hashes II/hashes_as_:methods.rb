@@ -1,7 +1,7 @@
 def calculate_total_1(price, tip, tax)
   tax_amount = price * tax
   tip_amount = price * tip
-  price ++ tip_amount + tax_amount
+  price + tip_amount + tax_amount
 end
 
 #puts calculate_total_1(24.99, 0.18, 0.07)
